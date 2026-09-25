@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="crt-glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.3"/>
+      <stop offset="60%" stop-color="#0e7490" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#090a0f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cyber-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0e7ff"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" rx="100" fill="#090a0f"/>
+  <rect width="512" height="512" rx="100" fill="url(#crt-glow)"/>
+  
+  <!-- CRT Monitor Frame (2000s Cyber Cafe monitor) -->
+  <rect x="76" y="80" width="360" height="280" rx="32" fill="#131720" stroke="#334155" stroke-width="8"/>
+  <!-- CRT Screen Curved Bezel -->
+  <rect x="96" y="100" width="320" height="236" rx="20" fill="#030712" stroke="#1e293b" stroke-width="4"/>
+  
+  <!-- AIEARNX Retro Audio / Cyber Monogram -->
+  <path d="M160 270 L210 140 L260 270 M180 230 L240 230" stroke="#f8fafc" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <circle cx="330" cy="180" r="24" fill="none" stroke="#38bdf8" stroke-width="10"/>
+  <path d="M330 156 L330 240 M315 240 L345 240" stroke="#38bdf8" stroke-width="10" stroke-linecap="round"/>
+  
+  <!-- Audio wave equalizer at bottom of screen -->
+  <line x1="120" y1="290" x2="120" y2="305" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="135" y1="280" x2="135" y2="305" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="150" y1="270" x2="150" y2="305" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="365" y1="275" x2="365" y2="305" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="380" y1="285" x2="380" y2="305" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+  <line x1="395" y1="295" x2="395" y2="305" stroke="#38bdf8" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Power LED -->
+  <circle cx="390" cy="336" r="4" fill="#22c55e"/>
+
+  <!-- Monitor Stand -->
+  <path d="M216 360 L200 420 L312 420 L296 360 Z" fill="#1e293b"/>
+  <rect x="160" y="420" width="192" height="16" rx="8" fill="#334155"/>
+</svg>

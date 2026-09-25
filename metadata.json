@@ -1,0 +1,6 @@
+{
+  "name": "AIEARNX",
+  "description": "AIEARNX takes you back to the golden era of 2000s Indian cyber cafes with CRT computers, retro internet culture, digital nostalgia, editing setups, and nostalgic music playlists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
